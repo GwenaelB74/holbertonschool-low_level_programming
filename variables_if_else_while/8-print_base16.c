@@ -9,10 +9,10 @@
  *
  */
 
-int main(void) 
+int main(void)
 {
 	char numhexa = '0';
-    	char letter = 'a';
+	char letter = 'a';
 
 	while (numhexa <= '9')
 	{
