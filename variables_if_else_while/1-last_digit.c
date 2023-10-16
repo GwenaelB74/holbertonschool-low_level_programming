@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * main = entry point
+ * main - entry point
  *
  * Description: "The last digit, project 1 of week "
  *
