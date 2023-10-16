@@ -5,7 +5,7 @@
 /**
  * main = entry point
  *
- * Description "The last digit"
+ * Description "The last digit, project 1 of week "
  *
  * Return: Always 0 (success)
  */
@@ -23,7 +23,7 @@ int main(void)
 		printf("is %d and is greater than 5\n", lastdigit);
 	if (lastdigit == 0)
 		printf("is 0 and is 0\n");
-	if (lastdigit < 6)
+	else if (lastdigit < 6) 
 		printf("is %d and is less than 6 and not 0\n", lastdigit);
 	return (0);
 }
