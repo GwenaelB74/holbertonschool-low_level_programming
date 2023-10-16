@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-/*
+/**
  * main - entry point
  *
  * Description: Script that prints alphabet in lowercase
