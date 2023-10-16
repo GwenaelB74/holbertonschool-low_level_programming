@@ -14,12 +14,12 @@ int main(void)
 	char numhexa = '0';
     	char letter = 'a';
 
-	while (numhexa < '9')
+	while (numhexa <= '9')
 	{
 		putchar(numhexa);
 		numhexa++;
 	}
-	while (letter < 'g')
+	while (letter <= 'f')
 	{
 		putchar(letter);
 		letter++;
