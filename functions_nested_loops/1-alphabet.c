@@ -1,9 +1,7 @@
 #include "main.h"
 
 /**
- * 
- * print_alphabet - Project 2, Task 1 
- *
+ * print_alphabet - test
  */
 
 void print_alphabet(void)
@@ -12,8 +10,8 @@ void print_alphabet(void)
 
 	while (letter <= 'z')
 	{
-	_putchar(letter);
-	letter++;
+		_putchar(letter);
+		letter++;
 	}
 	_putchar('\n');
 }
