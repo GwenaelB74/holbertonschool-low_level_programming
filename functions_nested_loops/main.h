@@ -13,5 +13,6 @@ void jack_bauer(void);
 int hour, minute;
 int main(void);
 void jack_bauer(void);
+void times_table(void);
 
 #endif
