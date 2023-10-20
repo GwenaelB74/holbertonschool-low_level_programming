@@ -1,0 +1,11 @@
+#include<stdio.h>
+/**
+ * Main - Entry Point
+ *
+ * Return: Always 0 (Success)
+ */
+Int Main(Void)
+{
+Printf("With Proper Grammar, But The Outcome Is A Piece Of Art,\N");
+Return (0);
+}
