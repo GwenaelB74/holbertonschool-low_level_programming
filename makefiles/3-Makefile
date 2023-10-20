@@ -1,45 +1,17 @@
-# Compiler
 CC = gcc
-
-# Source files
 SRC = main.c school.c
-
-# Object files (auto-generated)
 OBJ = $(SRC:.c=.o)
+NAME=school
+RM=rm -f
 
-# Executable name
-NAME = school
+all: $(OBJ)
+	$(CC) $(OBJ) -o $(NAME)
 
-# File removal program
-RM = rm -f
-
-# Main target
-all: $(NAME)
-
-# Build the executable
-$(NAME): $(OBJ)
-	$(CC) -o $@ $^
-
-# Clean temporary files and the executable
 clean:
-	$(RM) $(NAME) *~ *.swp
-
-# Clean object files
+	$(RM) *~ $(NAME)
 oclean:
-	$(RM) $(OBJ)
-
-# Clean temporary files, the executable, and object files
+	$(RM) *.o
 fclean: clean oclean
-
-# Force recompilation of all source files
-re: fclean all
-
-# Pattern rule for compiling .c files into .o files
-%.o: %.c
-	$(CC) -c -o $@ $<
-
-# Ensure that .c files are recompiled when they change
-$(OBJ): $(SRC)
-
-.PHONY: all clean oclean fclean re
-
+	$(RM) $(NAME)
+re: oclean
+	$(RM) $(NAME)
