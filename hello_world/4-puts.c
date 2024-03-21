@@ -1,14 +1,15 @@
 #include <stdio.h>
 
-/*
+/**
  * main - entry point
  *
- * description : task 1
+ * Description: '"Programming a puts"'
  *
- * Return: Always 0 (sucess)
+ * Return: Always 0 (success)
  */
 
-int main(void) {
-	printf("\"Programming is like building a multilingual puzzle");
-	return(0);
+int main(void)
+{
+	puts("\"Programming is like building a multilingual puzzle");
+	return (0);
 }
